@@ -10,7 +10,7 @@ namespace BankClientManager.Models
     public interface IEmployee
     {
         public Client GetById(int id);
-        public Client GetAll();
+        public IEnumerable<Client> GetAll();
         public Client Update(Client client);
     }
 }
