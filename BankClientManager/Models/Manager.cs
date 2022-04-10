@@ -43,7 +43,7 @@ namespace BankClientManager.Models
             return client;
         }
 
-        public Client Add(Client client)
+        public override Client Add(Client client)
         {
             return _repository.Add(client);
         }

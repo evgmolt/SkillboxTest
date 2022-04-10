@@ -17,5 +17,6 @@ namespace BankClientManager.Models
         public abstract IEnumerable<Client> GetAll();
         public abstract Client GetById(int id);
         public abstract Client Update(Client client);
+        public abstract Client Add(Client client);
     }
 }

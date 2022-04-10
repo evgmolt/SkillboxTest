@@ -15,6 +15,11 @@ namespace BankClientManager.Models
         {
         }
 
+        public override Client Add(Client client)
+        {
+            return null;
+        }
+
         public override IEnumerable<Client> GetAll()
         {
             var clients = _repository.GetAll();
